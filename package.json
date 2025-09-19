@@ -1,0 +1,26 @@
+{
+  "name": "com.evil-octane.text",
+  "displayName": "EvilOctane Text",
+  "version": "0.9.0",
+  "unity": "6000.0",
+  "unityRelease": "0f1",
+  "description": "Text encoding and decoding methods implemented using Unity.Mathematics and Unity.Collections.",
+  "keywords": [
+    "dots",
+    "serialization"
+  ],
+  "dependencies": {
+    "com.unity.burst": "1.8.25",
+    "com.unity.collections": "2.6.0-pre.4",
+    "com.unity.mathematics": "1.3.2",
+    "com.unity.test-framework": "1.5.1",
+    "com.unity.test-framework.performance": "3.1.0"
+  },
+  "author": {
+    "name": "Egor Novikov",
+    "url": "https://github.com/egor-nvkv"
+  },
+  "changelogUrl": "https://github.com/egor-nvkv/EvilOctane.Text/CHANGELOG.md",
+  "documentationUrl": "https://github.com/egor-nvkv/EvilOctane.Text/blob/master/README.md",
+  "licensesUrl": "https://github.com/egor-nvkv/EvilOctane.Text/blob/master/LICENSE"
+}
