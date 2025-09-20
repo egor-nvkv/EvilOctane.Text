@@ -135,7 +135,7 @@ namespace EvilOctane.Text
             destIndex += UnicodeEscapeLength;
         }
 
-        [return: AssumeRange(0, Utf32.MaxCodepointBmp)]
+        [return: AssumeRange(0ul, 0xfffful)]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static uint UnicodeEscapeAsciiHexDigitsToCodepoint(byte c0, byte c1, byte c2, byte c3, out int indexOfInvalid, out bool2 isHiLoSurrogate)
         {
