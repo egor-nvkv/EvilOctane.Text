@@ -1,0 +1,29 @@
+# https://stackoverflow.com/a/9977954
+
+# Autodetect text files
+* text=auto
+
+# Definitively text files
+*.txt text
+*.json text
+*.xml text
+
+# Source code
+*.c text
+*.cc text
+*.cpp text
+*.h text
+*.hpp text
+*.cs text
+
+# Unity
+*.asmdef text
+*.asmref text
+*.asset text
+*.inputactions text
+*.meta text
+*.prefab text
+*.tss text
+*.unity text
+*.uss text
+*.uxml text
