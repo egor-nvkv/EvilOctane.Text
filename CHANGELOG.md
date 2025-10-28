@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.10.1] - 2025-10-28
+
+* Switched to Unity Companion License
+
 ## [0.10.0] - 2025-10-05
 
 * Added function for comparing against utf-8 string literals
